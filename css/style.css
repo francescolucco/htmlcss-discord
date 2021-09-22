@@ -176,6 +176,31 @@ header{
 .img-vertical-section img{
   width: 100%;
 }
+.vertical-section-two{
+  position: relative;
+}
+.vertical-section-two h2{
+  display: inline-block;
+  font-size: 26px;
+}
+
+.vertical-section-two img{
+  position: absolute;
+  top: -27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical-section-two .bnt.bnt-footer{
+  background-color: rgb(133, 42, 253);
+}
+.btn.btn-blue{
+  color: white;
+  background-color: rgb(136, 147, 251);
+}
+.btn-main-bottom{
+  margin-top: 30px;
+}
+{}
 {}
 /* FOOTER */
 {}
