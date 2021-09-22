@@ -7,4 +7,106 @@
 body{
   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 20px;
+  background-color: rgb(82, 51, 10);
 }
+.conteiner{
+  width: 80%;
+  max-width: 1150px;
+  margin: auto;
+}
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+{}
+{}
+/* UTILS */
+.btn{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+
+{}
+{}
+{}
+/* HEADER */
+header{
+  height: 80px;
+  background-color: #3161E0;
+  line-height: 80px;
+}
+.logo{
+  float: left;
+}
+.menu-home{
+  float: left;
+}
+.btn-header{
+  float: right;
+}
+.logo img{
+  vertical-align: middle;
+}
+.menu-home ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.menu-home ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+nav.menu-home{
+  width: calc(100% - 200px);
+  text-align: center;
+}
+/* qui manca il bottone in alto a sx dell'header ma ho creato una classe .btn e l'ho inserita nelle UTILS */
+
+/* ***Ho provato ad impostare la centratura del .menu-home utilizzando la strada del position ABSOLUTE***
+
+.menu-home{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+Con queste proprietà funziona, ma dovrei ricordarmi di dare position relative all'header e di non mettere top 50% perchè è già centrato grazie al line-height e il transform -50% sull'asse y per lo stesso motivo (altrimenti mi esce dalla pagina in alto)
+
+header{
+  position: relative;
+} */
+
+/* JUMBOTRON */
+{}
+{}
+{}
+{}
+{}
+/* MAIN */
+{}
+{}
+{}
+{}
+{}
+/* FOOTER */
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
