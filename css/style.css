@@ -7,10 +7,9 @@
 body{
   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 20px;
-  background-color: rgb(82, 51, 10);
 }
 .conteiner{
-  width: 80%;
+  width: 90%;
   max-width: 1150px;
   margin: auto;
 }
@@ -84,11 +83,52 @@ header{
 } */
 
 /* JUMBOTRON */
+.jumbotron{
+  height: 550px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  color: white;
+}
+.conteiner.area-text-jumbotron{
+  max-width: 800px;
+  text-align: center;
+  padding-top: 90px;
+}
+.title-jumbotron{
+  font-size: 58px;
+  padding: 34px 0;
+}
+.text-jumbotron{
+  font-size: 22px;
+  padding: 34px 0;
+  line-height: 35px;
+}
+.btn-jumbotron a:first-child{
+  margin-right: 30px;
+}
+{}
+
+
+
+/* .area-text-jumbotron{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.title-jumbotron{
+  font-size: ; */
 {}
 {}
 {}
 {}
-{}
+.btn.btn-black{
+  color: white;
+  background-color: black;}
+
 /* MAIN */
 {}
 {}
