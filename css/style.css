@@ -234,6 +234,7 @@ h3{
 }
 .selection-lenguage img{
   width: 10%;
+  min-width: 30px;
 }
 .selection-lenguage p{
   font-size: 15px;
@@ -249,6 +250,7 @@ h3{
 .twitter-logo, .instagram-logo, .facebook-logo, .youtube-logo {
   display: inline-block;
   width: 7%;
+  min-width: 27px;
   vertical-align:middle;
   margin-right: 30px;
 }
