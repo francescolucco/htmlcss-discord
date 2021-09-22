@@ -119,11 +119,11 @@ header{
 .horizontal-section{
   padding-bottom: 30px;
 }
-.horizontal-section.section-white{
+.section-white{
   margin: auto;
   background-color: white;
 }
-.horizontal-section.section-grey{
+.section-grey{
   margin: auto;
   background-color: rgb(238, 238, 230);
 }
@@ -149,6 +149,7 @@ header{
 .text-horizontal-section h2{
   font-size: 47px;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 .text-horizontal-section p{
   font-size: 22px;
@@ -157,8 +158,24 @@ header{
 
 
 /* main-bottom */
-{}
-{}
+.vertical-sections{
+  padding: 30px 0;
+  text-align: center;
+}
+.vertical-section-one h2{
+  font-size: 47px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  padding: 0 60px;
+}
+.vertical-section-one p{
+  font-size: 22px;
+  line-height: 35px;
+  padding: 0 60px;
+}
+.img-vertical-section img{
+  width: 100%;
+}
 {}
 /* FOOTER */
 {}
