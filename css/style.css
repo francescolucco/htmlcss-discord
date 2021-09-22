@@ -114,22 +114,37 @@ header{
   background-color: black;}
 
 /* MAIN */
-main{
-  background-color: tomato;
+
+/* main-top */
+.horizontal-section{
+  padding-bottom: 30px;
 }
 .horizontal-section.section-white{
   margin: auto;
   background-color: white;
 }
-.img-horizontal-section, .text-horizontal-section{
+.horizontal-section.section-grey{
+  margin: auto;
+  background-color: rgb(238, 238, 230);
+}
+.row-white .img-horizontal-section{
+  float: left;
+}
+.row-white .text-horizontal-section{
+  float: right;
+}
+.row-grey .img-horizontal-section{
+  float: right;
+}
+.row-grey .text-horizontal-section{
   float: left;
 }
 .img-horizontal-section{
-  width: 70%;
+  width: 50%;
 }
 .text-horizontal-section{
   width: 30%;
-  padding: 40px 0;
+  padding-top: 40px;
 }
 .text-horizontal-section h2{
   font-size: 47px;
@@ -137,10 +152,11 @@ main{
 }
 .text-horizontal-section p{
   font-size: 22px;
-  margin-bottom: 20px;
   line-height: 35px;
 }
-{}
+
+
+/* main-bottom */
 {}
 {}
 {}
