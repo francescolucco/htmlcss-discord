@@ -107,22 +107,6 @@ header{
   margin-right: 30px;
 }
 {}
-
-
-
-/* .area-text-jumbotron{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: auto;
-  text-align: center;
-  width: 50%;
-}
-.title-jumbotron{
-  font-size: ; */
-{}
-{}
 {}
 {}
 .btn.btn-black{
@@ -130,7 +114,32 @@ header{
   background-color: black;}
 
 /* MAIN */
-{}
+main{
+  background-color: tomato;
+}
+.horizontal-section.section-white{
+  margin: auto;
+  background-color: white;
+}
+.img-horizontal-section, .text-horizontal-section{
+  float: left;
+}
+.img-horizontal-section{
+  width: 70%;
+}
+.text-horizontal-section{
+  width: 30%;
+  padding: 40px 0;
+}
+.text-horizontal-section h2{
+  font-size: 47px;
+  margin-bottom: 30px;
+}
+.text-horizontal-section p{
+  font-size: 22px;
+  margin-bottom: 20px;
+  line-height: 35px;
+}
 {}
 {}
 {}
